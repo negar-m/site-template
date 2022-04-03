@@ -1,0 +1,1 @@
+Corporate site template made with html, css, flexbox and a bit of js

@@ -1,0 +1,112 @@
+@media (min-width: 380px) {
+  .newsletter__title {
+    max-width: 50rem;
+  }
+}
+@media (max-width: 380px) {
+  .header-content__title {
+    font-size: 4rem;
+  }
+  .destinations__title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .nav-menu,
+  .nav__btn {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+  .newsletter {
+    flex-direction: row;
+    text-align: left;
+  }
+  .newsletter__content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-basis: 60%;
+    padding-right: 2rem;
+  }
+  .newsletter__title {
+    max-width: 50rem;
+  }
+  .newsletter__email-box {
+    width: 85%;
+  }
+  .newsletter__banner {
+    flex-basis: 40%;
+  }
+  .newsletter::before {
+    top: -5rem;
+    left: -40rem;
+    width: auto;
+    height: auto;
+    background-size: auto;
+    background-position: center left;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav__links {
+    display: block;
+  }
+  .header-content__caption {
+    max-width: 50rem;
+  }
+  .newsletter__content {
+    padding-right: 4rem;
+  }
+  .footer-app {
+    display: block;
+  }
+  .footer-app--mobile {
+    display: none;
+  }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__right {
+    padding-left: 11rem;
+    justify-content: space-between;
+  }
+  .footer__scroll {
+    left: auto;
+  }
+  .newsletter::before {
+    top: -10rem;
+    left: -30rem;
+  }
+}
+@media (min-width: 1200px) {
+  .newsletter {
+    justify-content: space-between;
+  }
+  .newsletter__banner {
+    flex-basis: auto;
+    width: 42rem;
+  }
+  .newsletter__content {
+    flex-basis: auto;
+    width: 60rem;
+  }
+  .newsletter::before {
+    top: -15rem;
+    left: -15rem;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 128rem;
+  }
+  .newsletter {
+    padding: 3rem 6rem;
+  }
+}
